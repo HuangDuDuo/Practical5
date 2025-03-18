@@ -1,4 +1,4 @@
-my_dict = {}
+#No show!!
 Lan = {'JavaScript':62.3, 'HTML':52.9, 'Python':51, 'SQL':51, 'TypeScript':38.5}
 print (Lan)
 import matplotlib
@@ -9,6 +9,6 @@ plt.bar(language,values)
 plt.title('Programming language popularity')
 plt.xlabel('Language')
 plt.ylabel('Users (percentage)')
-plt.show
+plt.show()
 a = input("Input language:")
 print ("The percentage of developers who use", a, "is", Lan[a], ".")
